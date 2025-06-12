@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventuras OOp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Funny Games</h1>
+    <div id="container_portada">
+        <h2>Welcome</h2>
+        <p>Ayuda al pequeño zombie  a convertirse en un niño humano. Recorre la ciudad y captura las frutas mágicas y gana puntos para que poco a poco recupere su forma humana. Pero recuerda en cada nivel te enfrentarás a diferentes desafíos hasta llegar al laboratorio dónde hallarás la cura.<br><br>
+             ¿Logrará al final de la partida recuperar su alma humana?<br>
+        ¡El destino del pequeño zombie está en tus! manos.         
+        </p>
+        <button id="ocultarContainer">¡Let ´s go!</button>
+    </div>
+        
+    <div id="game-container" class="oculto">
+       <h2>First Level</h2>  
+       <audio id="sonidoJuego" src="audio/Faster_Version-2023-05-15_-_Chicken_Chase_-_www.FesliyanStudios.com.mp3" loop>
+        Tu navegador no soporta la etiqueta de audio.
+        </audio>
+   
+        <input type="range" id="volumnControl" min="0" max="1" step="0.01">
+        <input type="button" id="pause" value="ll">       
+    
+        <div id="puntos">Puntos = 0</div>
+     </div>    
+    <script type="module" src="main.js"></script>
+    
+</body>
+</html>
