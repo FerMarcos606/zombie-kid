@@ -18,7 +18,7 @@ Explorá el escenario, recolectá monedas perdidas, esquivá obstáculos y sumá
 
 ## 🖼️ Vista previa
 
-📷 ![Captura del juego](img/Captura.PNG)
+📷 ![Captura del juego](Captura.PNG)
 
 ---
 
